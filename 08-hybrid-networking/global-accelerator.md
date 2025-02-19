@@ -10,7 +10,7 @@
 
 ## CloudFront vs Global Accelerator
 
-- CloudFront moves the content closer to the customer by caching it on the Edge Location. Global Accelerator moves the customer closer to the service pe providing access to the AWS global network
+- CloudFront moves the content closer to the customer by caching it on the Edge Location. Global Accelerator moves the customer closer to the service by providing access to the AWS global network
 - Global Accelerator is a network product: works on any TCP/UDP applications including web apps (HTTP/HTTPS). CloudFront only caches HTTP/HTTPS content
 - Global Accelerator does not cache anything. It does not understand the HTTP/HTTPS protocol
 
