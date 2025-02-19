@@ -19,11 +19,11 @@
 
 ## VPN CloudHub
 
-    ![VPN CloudHub](images/VPNCloudHub.png)
+![VPN CloudHub](images/VPNCloudHub.png)
 
 - Each of the business sites can communicate with each other using the VGW, creating a virtual hub and spoke network using the VGW
 - Requirements to work:
-    - Each customer site needs to have an uniq ASN
+    - Each customer site needs to have an unique ASN
     - Each VPN needs to end on the same VGW
     - Sites must not have overlapping IP ranges
 - We can connect up to 10 CGW
